@@ -29,13 +29,13 @@
 
 ### My Output
 
-![My Output](./Answer-ss/op1.png)
+![My Output](./Answer-screenshot/op1.png)
 
 2. Website Name: [Apple](https://support.apple.com/en-in)
 
 ### Task
 
-![Store](./images/Pic3.png)
+![Store](./images/Picture_3.png)
 
 ### Fetch all the product name and store in an array
 
@@ -55,7 +55,7 @@ console.log(arr);
 
 ### My Output
 
-![My Output](./Answer-ss/op2.png)
+![My Output](./Answer-screenshot//op2.png)
 
 3. Webiste Name: [Youtube Support](https://support.google.com/youtube/)
 
@@ -88,7 +88,7 @@ document.querySelector(".accordion-homepage").appendChild(section);   //add sect
 
 ### My Output
 
-![My Output](./Answer-ss/op3.png)
+![My Output](./Answer-screenshot/op3.png)
 
 4. Webiste Name: [OnePlus](https://www.oneplus.in/support)
 
@@ -117,7 +117,7 @@ document.querySelector(".customer-support a").innerText = "+91 6366256689";
 
 ### My Output
 
-![My Output](./Answer-ss/op4.png)
+![My Output](./Answer-screenshot/op4.png)
 
 5. Webiste Name: [Samsung](https://www.samsung.com/in/offer/online/samsung-fest/)
 
@@ -147,7 +147,7 @@ document.querySelector(".diwali-deals-product-sale-btn").innerText = "Check out"
 
 ### My Output
 
-![My Output](./Answer-ss/op5.png)
+![My Output](./Answer-screenshot/op5.png)
 
 6. Webiste Name: [Adidas](https://www.adidas.co.in/)
 
@@ -182,7 +182,7 @@ function bgChange2() {
 
 ### My Output
 
-![My Output](./Answer-ss/op6.png)
+![My Output](./Answer-screenshot/op6.png)
 
 7. Webiste Name: [MDN Web Docs](https://developer.mozilla.org/en-US/)
 
@@ -217,7 +217,7 @@ search("css");
 
 ### My Output
 
-![My Output](./Answer-ss/op7.png)
+![My Output](./Answer-screenshot/op7.png)
 
 8. Webiste Name: [Google](https://www.google.com/)
 
@@ -251,7 +251,7 @@ remove(lang);
 
 ### My Output
 
-![My Output](./Answer-ss/op8.png)
+![My Output](./Answer-screenshot/op8.png)
 
 9. Webiste Name: [Code Wars](https://www.codewars.com/)
 
@@ -281,7 +281,7 @@ text.style.fontFamily = "monospace";
 
 ### My Output
 
-![My Output](./Answer-ss/op9.png)
+![My Output](./Answer-screenshot/op9.png)
 
 10. Webiste Name: [Freecodecamp](https://www.freecodecamp.org/)
 
@@ -318,7 +318,7 @@ text.style.fontFamily = "monospace";
 
 ### My Output
 
-![My Output](./Answer-ss/op10.png)
+![My Output](./Answer-screenshot/op10.png)
 
 11. Webiste Name: [realme](https://www.realme.com/in/)
 
@@ -347,7 +347,7 @@ const logo = document.querySelector('.wrapper .logo .icon  ');
 
 ### My Output
 
-![My Output](./Answer-ss/op11.png)
+![My Output](./Answer-screenshot/op11.png)
 
 12. Webiste Name: [Github](https://github.com/)
 
@@ -376,7 +376,7 @@ document.querySelector(".js-repos-container h2 a").style.background = "blue";
 
 ### My Output
 
-![My Output](./Answer-ss/op12.png)
+![My Output](./Answer-screenshot/op12.png)
 
 13. Webiste Name: [Hackerrank](https://www.hackerrank.com/)
 
@@ -406,7 +406,7 @@ desc.style.fontSize = "2rem";
 
 ### My Output
 
-![My Output](./Answer-ss/op13.png)
+![My Output](./Answer-screenshot/op13.png)
 
 14. Webiste Name: [Asus](https://www.asus.com/in/)
 
@@ -435,7 +435,7 @@ desc.style.fontSize = "80px";
 
 ### My Output
 
-![My Output](./Answer-ss/op14.png)
+![My Output](./Answer-screenshot/op14.png)
 
 15. Webiste Name: [Dell](https://www.dell.com/en-in/shop/deals/laptop-deals?gacd=10415953-9016-5761040-285981356-0&dgc=ST&gclid=Cj0KCQjwguGYBhDRARIsAHgRm4-XUDMhhVNyHXb3s1gY4ZBzORr_d9Se-buhJwy7asyUe7YdqEA11eEaAt6UEALw_wcB&gclsrc=aw.ds&nclid=BxjBlpBQsX6pjSHh-L8YYSU77EpfXRkG1AGMB5Wbeu386ykspfrPDnfx_DdFau20)
 
@@ -464,7 +464,7 @@ desc.style.textAlign = "right";
 
 ### My Output
 
-![My Output](./Answer-ss/op15.png)
+![My Output](./Answer-screenshot/op15.png)
 
 16. Webiste Name: [Vercel](https://vercel.com/)
 
@@ -492,7 +492,7 @@ document.querySelector(".section-title_title__VEDfK").innerHTML = "Start with Sc
 
 ### My Output
 
-![My Output](./Answer-ss/op16.png)
+![My Output](./images/Pic31.png)
 
 17. Webiste Name: [Sony](https://www.sony.co.in/)
 
@@ -522,7 +522,7 @@ document.querySelector(".section-title_title__VEDfK").innerHTML = "Start with Sc
 
 ### My Output
 
-![My Output](./Answer-ss/op17.png)
+![My Output](./Answer-screenshot/op17.png)
 
 18. Webiste Name: [Philips](https://www.philips.co.in/)
 
@@ -550,7 +550,7 @@ document.querySelector(".p-footer").style.background  = "orange";
 
 ### My Output
 
-![My Output](./Answer-ss/op18.png)
+![My Output](./Answer-screenshot/op18.png)
 
 19. Webiste Name: [Canon](https://in.canon/)
 
@@ -580,7 +580,7 @@ document.querySelector(".navbar-brand").innerText = logoExtract;
 
 ### My Output
 
-![My Output](./Answer-ss/op19.png)
+![My Output](./Answer-screenshot/op19.png)
 
 20. Webiste Name: [Oppo](https://www.oppo.com/in/)
 
@@ -609,4 +609,4 @@ specs.style.color = "orange";
 
 ### My Output
 
-![My Output](./Answer-ss/op20.png)
+![My Output](./Answer-screenshot/op20.png)

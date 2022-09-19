@@ -1,5 +1,7 @@
 # Dom Manipulation Assignment
 
+![Thumbnail](./thumbnail.png)
+
 1. Webiste Name: [Dev To](https://dev.to/)
 
 ### Topics

@@ -37,6 +37,18 @@
 //     document.querySelector(".searchinput-wrapper___18TsX .searchinput___zXLAR").style.backgroundColor = "red";
 // }
 
+//  TODO: ANS 7
+
+// function buttonClicked(event){
+//     document.getElementById("hp-search-input").value = "CSS";
+//     //event.preventDefault();
+//     console.log(myval);
+// }
+
+// let myBtn = document.querySelectorAll(".button")[6]
+// myBtn.addEventListener("submit" , buttonClicked)
+
+
 // TODO: ANS 9
 // document.querySelector(".display-heading-1").style.fontFamily="monospace"
 // document.querySelector(".display-heading-1").style.color="#B1361E"

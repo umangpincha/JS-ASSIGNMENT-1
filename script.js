@@ -39,14 +39,24 @@
 
 //  TODO: ANS 7
 
-// function buttonClicked(event){
-//     document.getElementById("hp-search-input").value = "CSS";
-//     //event.preventDefault();
-//     console.log(myval);
+// function search(str){
+//     let input = document.querySelector("#top-nav-search-input");
+//     input.value = str;
+//     let form = document.querySelector("#top-nav-search-form");
+//     form.submit();
 // }
 
-// let myBtn = document.querySelectorAll(".button")[6]
-// myBtn.addEventListener("submit" , buttonClicked)
+// search("css");
+
+
+// TODO: ANS 8
+// let lang = document.querySelectorAll("#SIvCob a");
+// function removeLang(lang){
+//     for(let i=0 ;i<lang.length ; i+=2){
+//         lang[i].remove();
+//     }
+// }
+// removeLang(lang);
 
 
 // TODO: ANS 9

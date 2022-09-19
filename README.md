@@ -23,8 +23,8 @@
 ### Solution :
 
 ```
-        document.querySelector(".side-bar .crayons-card h2").innerHTML = "Rakshit koyani";
-        document.getElementsByTagName("p").innerHTML = "I Write Code";
+    document.querySelector(".side-bar .crayons-card .crayons-subtitle-2").innerText = "Umang Pincha"
+    document.querySelector(".side-bar .crayons-card .color-base-70").innerText = "I Write Code"
 ```
 
 ### My Output
@@ -46,11 +46,12 @@
 ### Solution :
 
 ```
-const arr = [];
-document.querySelectorAll(".as-imagegrid-item-title").forEach((item) => {
-  arr.push(item.innerText.replace("\nSupport", ""));
-});
-console.log(arr);
+let nList  = document.querySelectorAll(".as-imagegrid-item-title");
+a=[];
+for (let element of nList) {
+     a.push(element.innerText)
+ }
+console.log(a);
 ```
 
 ### My Output
@@ -78,12 +79,12 @@ console.log(arr);
 ### Solution :
 
 ```
-let h3 = document.createElement("h3");// CREATE h3 tag
-h3.innerText = "My new FAQ";
-let section = document.createElement("section");      //create empty section
-section.classList.add("parent");          // add 'parent' class to section
-section.appendChild(h3);                //add h3 to section
-document.querySelector(".accordion-homepage").appendChild(section);   //add section to accordion-homepage nav tag
+let p = document.querySelectorAll(".parent")
+// New element <h3> My New FAQ </h3>
+let node = document.createElement("h3");
+node.textContent = 'My New FAQ';
+//Append child
+p[7].appendChild(node)
 ```
 
 ### My Output
@@ -111,7 +112,7 @@ document.querySelector(".accordion-homepage").appendChild(section);   //add sect
 ### Solution :
 
 ```
-document.querySelector(".customer-support a").innerText = "+91 6366256689";
+document.querySelector(".customer-support .one-tel-number").innerText = "+91 6366256689"
 
 ```
 
@@ -140,7 +141,7 @@ document.querySelector(".customer-support a").innerText = "+91 6366256689";
 ### Solution :
 
 ```
-document.querySelector(".diwali-deals-product-sale-btn").innerText = "Check out";
+document.querySelector(".feature-column-carousel__content .feature-column-carousel__button .cta").innerText = "Check Out"
 
 
 ```
@@ -170,13 +171,10 @@ document.querySelector(".diwali-deals-product-sale-btn").innerText = "Check out"
 ### Solution :
 
 ```
-document.querySelector(".searchinput___zXLAR").addEventListener("mouseover", bgChange );
-function bgChange() {
-  document.querySelector(".searchinput___zXLAR").style.background = "red";
-}
-document.querySelector(".searchinput___zXLAR").addEventListener("mouseout", bgChange2 );
-function bgChange2() {
-  document.querySelector(".searchinput___zXLAR").style.background = "transparent";
+document.addEventListener("mouseover" , myFunc)
+function myFunc() {
+     document.querySelector(".searchinput-wrapper___18TsX .searchinput___zXLAR").style.backgroundColor = "red";
+ }
 }
 ```
 
@@ -274,9 +272,8 @@ remove(lang);
 ### Solution :
 
 ```
-const text = document.querySelector(".display-heading-1");
-text.style.color = "#b1361e";
-text.style.fontFamily = "monospace";
+document.querySelector(".display-heading-1").style.fontFamily="monospace"
+document.querySelector(".display-heading-1").style.color="#B1361E"
 ```
 
 ### My Output
@@ -304,16 +301,10 @@ text.style.fontFamily = "monospace";
 ### Solution :
 
 ```
-  const btn = document.querySelector(".btn-cta-big ")
-  const btnText = document.querySelector(".btn-cta-big .login-btn-text")
-
-  //mouseover
-  btn.addEventListener("mouseover", function() {
-    btnText.style.background = "red";
-  });
-  btn.addEventListener("mouseout", function() {
-    btnText.style.background = "transparent";
-  });
+  document.addEventListener("mouseover" , myFunc);
+ function myFunc(){
+     document.querySelector(".btn-cta-big .login-btn-text").style.backgroundColor="red"
+}
 ```
 
 ### My Output
@@ -341,8 +332,8 @@ text.style.fontFamily = "monospace";
 ### Solution :
 
 ```
-const logo = document.querySelector('.wrapper .logo .icon  ');
-  logo.style.backgroundImage = "url(https://ineuron.ai/images/ineuron-logo.png)";
+document.querySelector(".logo .icon").style.backgroundImage="url('https://ineuron.ai/images/ineuron-logo.png')"
+
 ```
 
 ### My Output
@@ -370,7 +361,7 @@ const logo = document.querySelector('.wrapper .logo .icon  ');
 ### Solution :
 
 ```
-document.querySelector(".js-repos-container h2 a").style.background = "blue";
+document.querySelector(".js-repos-container .f4 .btn").style.backgroundColor="blue"
 
 ```
 
@@ -399,9 +390,7 @@ Target the top description and change “Matching developers with great companie
 ### Solution :
 
 ```
-const desc = document.querySelector(".fl-heading .fl-heading-text");
-desc.innerHTML = "JSBOOTCAMP"
-desc.style.fontSize = "2rem";
+document.querySelector(".fl-col-content .fl-module .fl-module-content .fl-heading").innerText = "JSBOOTCAMP"
 ```
 
 ### My Output
@@ -429,8 +418,7 @@ desc.style.fontSize = "2rem";
 ### Solution :
 
 ```
-const desc = document.querySelector(".HotDealsAll__Heading__2fIbe");
-desc.style.fontSize = "80px";
+document.querySelector(".HotDealsAll__HotCampaignsEventsContainer__FK0V2 .HotDealsAll__Heading__2fIbe").style.fontSize="80px"
 ```
 
 ### My Output
@@ -458,8 +446,7 @@ desc.style.fontSize = "80px";
 ### Solution :
 
 ```
-const desc = document.querySelector(".ps-title ").
-desc.style.textAlign = "right";
+document.querySelectorAll(".ps-top .ps-title")[4].style.textAlign = "right"
 ```
 
 ### My Output
@@ -487,7 +474,7 @@ desc.style.textAlign = "right";
 ### Solution :
 
 ```
-document.querySelector(".section-title_title__VEDfK").innerHTML = "Start with Scratch";
+document.querySelector(".section-title_title__VEDfK").textContent = "Start with Scratch"
 ```
 
 ### My Output
@@ -515,9 +502,9 @@ document.querySelector(".section-title_title__VEDfK").innerHTML = "Start with Sc
 ### Solution :
 
 ```
-  var btn = document.querySelector(".btn-container");
-  const d = new Date();
-  btn.innerHTML = d;
+  let btn = document.querySelector(".btn-container");
+  let today = new Date();
+   btn.innerHTML =  today;
 ```
 
 ### My Output
@@ -545,7 +532,8 @@ document.querySelector(".section-title_title__VEDfK").innerHTML = "Start with Sc
 ### Solution :
 
 ```
-document.querySelector(".p-footer").style.background  = "orange";
+let footer = document.querySelector(".p-footer")
+footer.style.backgroundColor = "yellow"
 ```
 
 ### My Output
@@ -573,9 +561,8 @@ document.querySelector(".p-footer").style.background  = "orange";
 ### Solution :
 
 ```
-let logoExtract = document.querySelector(".navbar-brand .logo").src;
-document.querySelector(".navbar-brand").innerText = logoExtract;
-
+let img_url = document.querySelector(".navbar-brand")
+console.log(img_url.children[0].src);
 ```
 
 ### My Output
@@ -603,8 +590,7 @@ document.querySelector(".navbar-brand").innerText = logoExtract;
 ### Solution :
 
 ```
-const specs = document.querySelector(".desc");
-specs.style.color = "orange";
+document.querySelector(".desc").style.color="orange"'
 ```
 
 ### My Output
